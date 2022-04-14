@@ -1,0 +1,49 @@
+
+.TextInput {
+    font-size: large;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    border-radius: 0px;
+    display: block;
+    margin: 5px auto;
+}
+.TextInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+.Radio {
+    font-size: small;
+    font-weight: bold;
+}
+.Button {
+    display: block;
+    margin: 15px auto !important;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 1em;
+    background: white;
+    border-radius: 0px;
+    color: black;
+    border: 2px solid darkslategray;
+    cursor: pointer;
+    margin: 5px auto;
+    transition-duration: 1s;
+}
+
+.Button:hover {
+    background: darkslategray;
+    color: white;
+    transition: all 0.8s;
+}
+
+input   {
+    font-weight: bold;
+    padding: 5px;
+    font-size: medium;
+    border: 2px solid darkslategrey;
+}
+label{
+    width: auto;
+    padding: 10px;
+}
